@@ -18,7 +18,7 @@ public class invoiceController {
 
     @PostMapping("/Invoice")
     public int saveInvoice(@RequestBody Invoice invoice) {
-        System.out.println(invoice);
+
         invService.saveOrUpdate(invoice);
         return invoice.getId();
     };
