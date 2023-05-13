@@ -1,12 +1,20 @@
+
 POST http://localhost:8080/Invoice
 Content-Type: application/json
 
 {
-    "id":3,
-    "invno":"3"
-}
-
+"id":11,
+"invno":"01",
+"invdate":"2023-05-03",
+"custname":"amar",
+"stockname":"pen",
+"qty":10.0,
+"uom":"nos",
+"price":100.0,
+"rate":5.0
+ }
 ###
+
 GET http://localhost:8080/Invoice
 
 ###
