@@ -1,0 +1,17 @@
+POST http://localhost:8080/Invoice
+Content-Type: application/json
+
+{
+    "id":3,
+    "invno":"3"
+}
+
+###
+GET http://localhost:8080/Invoice
+
+###
+
+GET http://localhost:8080/hello
+
+###
+
