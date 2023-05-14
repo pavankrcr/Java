@@ -3,11 +3,11 @@ POST http://localhost:8080/Invoice
 Content-Type: application/json
 
 {
-"id":11,
-"invno":"01",
+"id":3,
+"invno":"03",
 "invdate":"2023-05-03",
 "custname":"amar",
-"stockname":"pen",
+"stockname":"pencil",
 "qty":10.0,
 "uom":"nos",
 "price":100.0,
@@ -16,6 +16,14 @@ Content-Type: application/json
 ###
 
 GET http://localhost:8080/Invoice
+
+###
+GET http://localhost:8080/Invoice/3
+
+###
+
+
+DELETE http://localhost:8080/Invoice/3
 
 ###
 
