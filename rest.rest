@@ -3,8 +3,8 @@ POST http://localhost:8080/Invoice
 Content-Type: application/json
 
 {
-"id":3,
-"invno":"03",
+"id":5,
+"invno":"05",
 "invdate":"2023-05-03",
 "custname":"amar",
 "stockname":"pencil",
@@ -18,7 +18,7 @@ Content-Type: application/json
 GET http://localhost:8080/Invoice
 
 ###
-GET http://localhost:8080/Invoice/3
+GET http://localhost:8080/Invoice/5
 
 ###
 
