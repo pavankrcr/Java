@@ -26,6 +26,11 @@ public class invoiceService {
 
     public void saveOrUpdate(Invoice invoice) {
         invoiceRepository.save(invoice);
-
     };
+
+    public void deleteInvoiceById(Long id) {
+        invoiceRepository.deleteById(id);
+    };
+
+
 };
